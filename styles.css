@@ -1,0 +1,152 @@
+
+
+body {
+  margin: 0;
+  /* same as
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;*/
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color:#40514E;
+}
+
+h1 {
+  font-size: 562.5%;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bold;
+}
+
+hr {
+  border-style: dotted;
+  border-bottom: none;
+  border-width: 10px;
+  width: 9%;
+  color: gray;
+  margin: 100px auto;
+}
+
+img {
+  display: inline-block;
+}
+
+a {
+  color: #11999E;
+}
+
+a:hover {
+  color:#40514E;
+}
+
+p {
+  line-height: 2;
+}
+
+.profile{
+  margin-top: 50px;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.middle-container {
+  padding: 100px auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: #11999E;
+  text-decoration: none;
+  padding: 50px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 0.75rem;
+}
+
+.footer-link{
+  text-decoration: none;
+  padding:20px;
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 300px;
+}
+
+.guitar {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  background-color: #E2735B;
+}
+
+.computer {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me-description{
+  margin: 40px auto 30px;
+  width: 40%;
+}
+
+.BUTTON_ILP {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   height: 50px;
+   line-height: 50px;
+   color: #FFFFFF;
+   font-family: 'Merriweather', serif;
+   width: 200px;
+   font-size: 25px;
+   font-weight: 500;
+   padding: 0;
+   background-color: #66BFBF;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 100px;
+}
